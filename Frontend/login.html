@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign up page</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./images/images.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+</head>
+<body>
+   <!-- 
+    - index.htmlHEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.html" class="logo">
+        <img src="./images/images-removebg-preview.png">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Explore cars</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+          <button class="LoginSignup" style="opacity: 0;">Login/Signup</button>
+        </a>
+
+      </div>
+
+    </div>
+  </header>
+
+    <div class="main-container">
+        <div class="title-text">
+            <div class="title login">Login</div>
+            <div class="title signup">Signup</div>
+        </div>
+
+
+        <div class="form-cont">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab"></div>
+            </div>
+
+
+
+            <div class="form-inner">
+
+
+              <form action="index.html" class="login" id="login_form">
+                <!-- <pre>
+                </pre> -->
+                <div class="field">
+                  <input type="text" class="name" placeholder="Name" required>
+                </div>
+                <div class="field">
+                  <input type="password" class="password" placeholder="Password" required>
+                </div>
+                <div class="pass-link"><a href="index.html">Continue as Guest</a></div>
+                <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">Create an account <a href="">Signup now</a></div>
+              </form>
+    
+    
+    
+
+
+                <form action="index.html" class="signup" id="signup_form">
+                    <div class="field">
+                      <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field">
+                      <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                      <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                      <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="Signup">
+                    </div>
+                    <div class="signup-link">Already have an account? <a href="">Login</a></div>
+                  </form>
+
+
+
+            </div>
+        </div>
+    </div>
+       <!-- 
+    - index.htmlFOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="./images/images-removebg-preview.png">
+          </a>
+        </div>
+  
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Company</p></li>
+          <li><a href="index.html" class="footer-link">About us</a></li>
+          <li><a href="index.html" class="footer-link">Pricing plans</a></li>
+          <li><a href="index.html" class="footer-link">Our blog</a></li>
+          <li><a href="index.html" class="footer-link">Contacts</a></li>
+        </ul>
+  
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Support</p></li>
+          <li><a href="index.html" class="footer-link">Help center</a></li>
+          <li><a href="index.html" class="footer-link">Ask a question</a></li>
+          <li><a href="index.html" class="footer-link">Privacy policy</a></li>
+          <li><a href="index.html" class="footer-link">Terms & conditions</a></li>
+        </ul>
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Places in Addis Ababa</p>
+              </li>
+              <li><a href="index.html" class="footer-link">Sarbet</a></li>
+              <li><a href="index.html" class="footer-link">Mexico</a></li>
+              <li><a href="index.html" class="footer-link">Megenagna</a></li>
+              <li><a href="index.html" class="footer-link">Bole</a></li>
+              <li><a href="index.html" class="footer-link">Cazanchis</a></li>
+              <li><a href="index.html" class="footer-link">Kera</a></li>
+              <li><a href="index.html" class="footer-link">Piassa</a></li>
+              <li><a href="index.html" class="footer-link">Kirkos</a></li>
+              <li><a href="index.html" class="footer-link">Gullele</a></li>
+            </ul>
+            
+
+          </div>
+
+        </div>
+      </footer>
+  <script  src="./login.js"></script>
+</body>
+</html>
