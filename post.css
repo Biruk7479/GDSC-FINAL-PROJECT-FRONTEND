@@ -1,0 +1,58 @@
+
+.contain {
+    background: #fefefe;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+h1 {
+    color: #007bff; /* Same blue color for headers */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #fdfdfd; /* Same blue as button in login.css */
+    color:#007bff; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white; /* Darker blue on hover */
+}
+
+.error {
+    color: #ff4d4d; /* Error message color */
+    font-size: 14px;
+}
