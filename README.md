@@ -1,6 +1,6 @@
 # Car Rental Website
 
-This project is the backend for a full-stack car rental website. It features user authentication, role-based access control, and CRUD operations for cars and bookings. The backend is built using Node.js, Express.js, and MongoDB.
+This project is the frontend for a full-stack car rental website. It features user authentication, role-based access control, and CRUD operations for cars and bookings. The backend is built using Node.js, Express.js, and MongoDB.
 
 ## How to Navigate the Website
 
